@@ -48,14 +48,14 @@
         var projectRef = ref.child("projects").child("projectId1234");
         $scope.project = {
             Todo: [],
-            Doing: [],
-            Review: [],
+            In_Progress: [],
+         //   Review: [],
             Done: []
         };
 
         mainLogic("Todo");
-        mainLogic("Doing");
-        mainLogic("Review");
+        mainLogic("In_Progress");
+        //mainLogic("Review");
         mainLogic("Done");
 
         //add a task to firebase "not to local array"

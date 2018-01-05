@@ -3,6 +3,12 @@
     width: 100px;
 }
 
+.leftnav-secondNav {
+    background-color: #56a2d4;
+    width: 400px;
+}
+
+
 .leftnav > ng-md-icon {
     margin-bottom: 10px;
     margin-top: 15px;
